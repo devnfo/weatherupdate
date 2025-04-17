@@ -3,8 +3,8 @@ pipeline {
 
   environment {
     IMAGE_NAME = "weatherupdate"
-    DOCKER_HUB_USER = "devjenkins_123"
-    RANDOM_PORT = "8081"  // Random port chosen to avoid conflicts
+    DOCKER_HUB_USER = "dev637"  // Correct Docker Hub username
+    RANDOM_PORT = "8081"        // Random port chosen to avoid conflicts
   }
 
   stages {
